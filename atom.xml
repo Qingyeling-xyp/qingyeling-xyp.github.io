@@ -917,6 +917,28 @@
         <updated>2024-09-13T16:49:40.000Z</updated>
     </entry>
     <entry>
+        <id>https://blog.qingyeling.cn/2024/09/14/computer-science/java/easybbs/%E9%82%AE%E7%AE%B1%E8%AE%BE%E7%BD%AE/</id>
+        <title>邮箱设置</title>
+        <link rel="alternate" href="https://blog.qingyeling.cn/2024/09/14/computer-science/java/easybbs/%E9%82%AE%E7%AE%B1%E8%AE%BE%E7%BD%AE/"/>
+        <content type="html">&lt;p&gt;我们在注册，找回密码的时候，如果没有收到验证码，可以尝试以下几种方式解决&lt;/p&gt;
+&lt;h1 id=&#34;使用qq邮箱注册&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用qq邮箱注册&#34;&gt;#&lt;/a&gt; 使用 QQ 邮箱注册&lt;/h1&gt;
+&lt;p&gt;现在常用的邮箱应该是 QQ 邮箱，所以后台也是使用 QQ 邮箱给大家发送验证码，所以大家的接受邮箱也最后是 qq 邮箱&lt;/p&gt;
+&lt;h1 id=&#34;在垃圾箱中查找邮箱验证码&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在垃圾箱中查找邮箱验证码&#34;&gt;#&lt;/a&gt; 在垃圾箱中查找邮箱验证码&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;http://essay.qingyeling.cn:3004/api/file/getImage/temp/QXO8tbSDgXSPaUUqhIYBBkNcToV23J.png&#34; alt=&#34;图片&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;设置邮箱白名单&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#设置邮箱白名单&#34;&gt;#&lt;/a&gt; 设置邮箱白名单&lt;/h1&gt;
+&lt;p&gt;将邮箱 &lt;a href=&#34;mailto:qingyeling_coder@qq.com&#34;&gt;qingyeling_coder@qq.com&lt;/a&gt; 添加到白名单&lt;/p&gt;
+&lt;h2 id=&#34;qq登录qq邮箱&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#qq登录qq邮箱&#34;&gt;#&lt;/a&gt; QQ 登录 QQ 邮箱&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;http://essay.qingyeling.cn:3004/api/file/getImage/temp//cnCgaBY8XClrHS6GCzOfWO3qR2qacY.png&#34; alt=&#34;图片&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;微信登录qq邮箱-头像-设置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#微信登录qq邮箱-头像-设置&#34;&gt;#&lt;/a&gt; 微信登录 QQ 邮箱 头像 -&amp;gt; 设置&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;http://essay.qingyeling.cn:3004/api/file/getImage/temp//fyWXUx6Wz5zhprpbKPq7VyDYULKnjR.png&#34; alt=&#34;图片&#34; /&gt;&lt;/p&gt;
+</content>
+        <category term="计算机科学" scheme="https://blog.qingyeling.cn/categories/computer-science/" />
+        <category term="Java" scheme="https://blog.qingyeling.cn/categories/computer-science/java/" />
+        <category term="test" scheme="https://blog.qingyeling.cn/categories/computer-science/java/test/" />
+        <category term="后端" scheme="https://blog.qingyeling.cn/tags/java/" />
+        <updated>2024-09-13T16:49:40.000Z</updated>
+    </entry>
+    <entry>
         <id>https://blog.qingyeling.cn/2024/09/13/computer-science/java/test/hello-world/</id>
         <title>Hello World</title>
         <link rel="alternate" href="https://blog.qingyeling.cn/2024/09/13/computer-science/java/test/hello-world/"/>
