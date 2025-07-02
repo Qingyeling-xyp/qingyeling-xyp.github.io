@@ -1,0 +1,447 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=2"><meta name="theme-color" content="#222"><meta http-equiv="X-UA-COMPATIBLE" content="IE=edge,chrome=1"><meta name="renderer" content="webkit"><link rel="icon" type="image/ico" sizes="32x32" href="/assets/favicon.ico"><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="alternate" href="/rss.xml" title="清野凛" type="application/rss+xml"><link rel="alternate" href="/atom.xml" title="清野凛" type="application/atom+xml"><link rel="alternate" type="application/json" title="清野凛" href="https://blog.qingyeling.cn/feed.json"><link rel="preconnect" href="https://s4.zstatic.net"><link rel="preconnect" href="https://at.alicdn.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CFredericka%20the%20Great:400,400italic,700,700italic%7CNoto%20Serif%20JP:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic%7CInconsolata:400,400italic,700,700italic&amp;display=swap&amp;subset=latin,latin-ext" media="none" onload="this.media='all'"><link rel="stylesheet" href="/css/app.css?v=0.4.11"><link rel="modulepreload" href="/js/chunk-37KC6PLM.js"><link rel="modulepreload" href="/js/chunk-6FA7JLIR.js"><link rel="modulepreload" href="/js/chunk-EIZBOYKV.js"><link rel="modulepreload" href="/js/chunk-HVVDXSLL.js"><link rel="modulepreload" href="/js/chunk-KGSZ7NAG.js"><link rel="modulepreload" href="/js/chunk-WIQECBEN.js"><link rel="modulepreload" href="/js/comments-R676ZKKO.js"><link rel="modulepreload" href="/js/copy-tex-KUMJSNK5.js"><link rel="modulepreload" href="/js/index.esm-BE2EMK3N.js"><link rel="modulepreload" href="/js/post-W2MFZ4UN.js"><link rel="modulepreload" href="/js/quicklink-Z6BI4RFL.js"><link rel="modulepreload" href="/js/search-ZZQJGTEK.js"><link rel="modulepreload" href="/js/siteInit.js"><link rel="modulepreload" href="/js/waline-H5GTLMLQ.js"><link rel="stylesheet" href="/css/comments-SJZAII77.css" media="none" onload="this.media='all'"><link rel="stylesheet" href="/css/siteInit.css" media="none" onload="this.media='all'"><link rel="stylesheet" href="/css/waline-ZFRMIHOE.css" media="none" onload="this.media='all'"><link rel="preload" href="https://images.weserv.nl/?url=https://gitee.com/fufan1025/blog_img/raw/master/girl_grass_city_213102_1920x1080.webp" as="image" fetchpriority="high"><link rel="preload" href="https://images.weserv.nl/?url=https://gitee.com/fufan1025/blog_img/raw/master/girl_pose_smile_1011693_2560x1080.webp" as="image" fetchpriority="high"><link rel="preload" href="https://images.weserv.nl/?url=https://gitee.com/fufan1025/blog_img/raw/master/girl_walk_anime_153292_2560x1080.webp" as="image" fetchpriority="high"><link rel="preload" href="https://images.weserv.nl/?url=https://gitee.com/fufan1025/blog_img/raw/master/girl_smile_umbrella_963266_1920x1200.webp" as="image" fetchpriority="high"><link rel="preload" href="https://images.weserv.nl/?url=https://gitee.com/fufan1025/blog_img/raw/master/anime_girl_sky_162368_1920x1200.webp" as="image" fetchpriority="high"><link rel="preload" href="https://images.weserv.nl/?url=https://gitee.com/fufan1025/blog_img/raw/master/girl_hair_stars_1075468_2560x1080.webp" as="image" fetchpriority="high"><meta name="keywords" content="后端"><meta name="description" content="QIngyeling的编程日记"><link rel="canonical" href="https://blog.qingyeling.cn/2024/09/14/computer-science/java/Linux/Liunx%E7%9A%84%E5%AD%A6%E4%B9%A0/"><title>Linux的学习</title><meta name="generator" content="Hexo 7.3.0"></head><body itemscope="" itemtype="http://schema.org/WebPage"><div id="loading"><div class="cat"><div class="body"></div><div class="head"><div class="face"></div></div><div class="foot"><div class="tummy-end"></div><div class="bottom"></div><div class="legs left"></div><div class="legs right"></div></div><div class="paw"><div class="hands left"></div><div class="hands right"></div></div></div></div><div id="container"><header id="header" itemscope="" itemtype="http://schema.org/WPHeader"><div class="inner"><div id="brand"><div class="pjax"><h1 itemprop="name headline">Linux的学习</h1><div class="meta"><span class="item" title="创建时间：2024-09-14 00:49:40"><span class="icon"><i class="ic i-calendar"></i></span><span class="text">发表于</span><time itemprop="dateCreated datePublished" datetime="2024-09-14T00:49:40+08:00">2024-09-14</time></span><span class="item" title="本文字数"><span class="icon"><i class="ic i-pen"></i></span><span class="text">本文字数</span><span>7.2k</span><span class="text">字</span></span><span class="item" title="阅读时长"><span class="icon"><i class="ic i-clock"></i></span><span class="text">阅读时长</span><span>7 分钟</span></span></div></div></div><nav id="nav"><div class="inner"><div class="toggle"><div class="lines" aria-label="切换导航栏"><span class="line"></span><span class="line"></span><span class="line"></span></div></div><ul class="menu"><li class="item title"><a href="/" rel="start">QIng yeling</a></li></ul><ul class="right" id="rightNav"><li class="item theme"><i class="ic i-sun"></i></li><li class="item search"><i class="ic i-search"></i></li></ul></div></nav></div><div class="pjax" id="imgs"><ul><li class="item" style="background-image: url(&quot;https://images.weserv.nl/?url=https://gitee.com/fufan1025/blog_img/raw/master/girl_grass_city_213102_1920x1080.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://images.weserv.nl/?url=https://gitee.com/fufan1025/blog_img/raw/master/girl_pose_smile_1011693_2560x1080.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://images.weserv.nl/?url=https://gitee.com/fufan1025/blog_img/raw/master/girl_walk_anime_153292_2560x1080.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://images.weserv.nl/?url=https://gitee.com/fufan1025/blog_img/raw/master/girl_smile_umbrella_963266_1920x1200.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://images.weserv.nl/?url=https://gitee.com/fufan1025/blog_img/raw/master/anime_girl_sky_162368_1920x1200.webp&quot;);"></li><li class="item" style="background-image: url(&quot;https://images.weserv.nl/?url=https://gitee.com/fufan1025/blog_img/raw/master/girl_hair_stars_1075468_2560x1080.webp&quot;);"></li></ul></div></header><div id="waves"><svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path></defs><g class="parallax"><use xlink:href="#gentle-wave" x="48" y="0"></use><use xlink:href="#gentle-wave" x="48" y="3"></use><use xlink:href="#gentle-wave" x="48" y="5"></use><use xlink:href="#gentle-wave" x="48" y="7"></use></g></svg></div><main><div class="inner"><div class="pjax" id="main"><div class="article wrap"><div class="breadcrumb" itemlistelement="" itemscope="" itemtype="https://schema.org/BreadcrumbList"><i class="ic i-home"></i><span><a href="/">首页</a></span><i class="ic i-angle-right"></i><span itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/computer-science/" itemprop="item" rel="index" title="分类于计算机科学"><span itemprop="name">计算机科学<meta itemprop="position" content="0"></span></a></span><i class="ic i-angle-right"></i><span itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/computer-science/java/" itemprop="item" rel="index" title="分类于Java"><span itemprop="name">Java<meta itemprop="position" content="1"></span></a></span><i class="ic i-angle-right"></i><span class="current" itemprop="itemListElement" itemscope="itemscope" itemtype="https://schema.org/ListItem"><a href="/categories/computer-science/java/linux/" itemprop="item" rel="index" title="分类于Linux"><span itemprop="name">Linux<meta itemprop="position" content="2"></span></a></span></div><article class="post block" itemscope="itemscope" itemtype="http://schema.org/Article" lang="zh-CN"><link itemprop="mainEntityOfPage" href="https://blog.qingyeling.cn/2024/09/14/computer-science/java/Linux/Liunx%E7%9A%84%E5%AD%A6%E4%B9%A0/"><span hidden="hidden" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><meta itemprop="image" content="/assets/avatar.jpg"><meta itemprop="name" content="清野凛"><meta itemprop="description" content="QIngyeling's の Blog, QIngyeling的编程日记"></span><span hidden="hidden" itemprop="publisher" itemscope="itemscope" itemtype="http://schema.org/Organization"><meta itemprop="name" content="清野凛"></span><div class="body md" itemprop="articleBody"><h1 id="linux基础命令"><a class="anchor" href="#linux基础命令">#</a> Linux 基础命令</h1>
+<h2 id="linux的目录结构"><a class="anchor" href="#linux的目录结构">#</a> Linux 的目录结构</h2>
+<p><img loading="lazy" data-src="https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027214128.png" alt="image-20221027214128453"></p>
+<ul>
+<li><code>/</code> ，根目录是最顶级的目录了</li>
+<li>Linux 只有一个顶级目录： <code>/</code></li>
+<li>路径描述的层次关系同样适用 <code>/</code>  来表示</li>
+<li>/home/qingyeling/a.txt，表示根目录下的 home 文件夹内有 qingyeling 文件夹，内有 a.txt</li>
+</ul>
+<h2 id="ls命令"><a class="anchor" href="#ls命令">#</a> ls 命令</h2>
+<p>功能：列出文件夹信息</p>
+<p>语法： <code>ls [-l -h -a] [参数]</code></p>
+<ul>
+<li>参数：被查看的文件夹，不提供参数，表示查看当前工作目录</li>
+<li>-l，以列表形式查看</li>
+<li>-h，配合 - l，以更加人性化的方式显示文件大小</li>
+<li>-a，显示隐藏文件</li>
+</ul>
+<h2 id="隐藏文件-文件夹"><a class="anchor" href="#隐藏文件-文件夹">#</a> 隐藏文件、文件夹</h2>
+<p>在 Linux 中以 <code>.</code>  开头的，均是隐藏的。</p>
+<p>默认不显示出来，需要 <code>-a</code>  选项才可查看到。</p>
+<h2 id="pwd命令"><a class="anchor" href="#pwd命令">#</a> pwd 命令</h2>
+<p>功能：展示当前工作目录</p>
+<p>语法： <code>pwd</code></p>
+<h2 id="cd命令"><a class="anchor" href="#cd命令">#</a> cd 命令</h2>
+<p>功能：切换工作目录</p>
+<p>语法： <code>cd [目标目录]</code></p>
+<p>参数：目标目录，要切换去的地方，不提供默认切换到 <code>当前登录用户HOME目录</code></p>
+<h2 id="home目录"><a class="anchor" href="#home目录">#</a> HOME 目录</h2>
+<p>每一个用户在 Linux 系统中都有自己的专属工作目录，称之为 HOME 目录。</p>
+<ul>
+<li>
+<p>普通用户的 HOME 目录，默认在： <code>/home/用户名</code></p>
+</li>
+<li>
+<p>root 用户的 HOME 目录，在： <code>/root</code></p>
+</li>
+</ul>
+<p>FinalShell 登陆终端后，默认的工作目录就是用户的 HOME 目录</p>
+<h2 id="相对路径-绝对路径"><a class="anchor" href="#相对路径-绝对路径">#</a> 相对路径、绝对路径</h2>
+<ul>
+<li>
+<p>相对路径，<mark>非</mark> <code>/</code>  开头的称之为相对路径</p>
+<p>相对路径表示以 <code>当前目录</code> 作为起点，去描述路径，如 <code>test/a.txt</code> ，表示当前工作目录内的 test 文件夹内的 a.txt 文件</p>
+</li>
+<li>
+<p>绝对路径，<mark>以</mark> <code>/</code>  开头的称之为绝对路径</p>
+<p>绝对路径从 <code>根</code> 开始描述路径</p>
+</li>
+</ul>
+<h2 id="特殊路径符"><a class="anchor" href="#特殊路径符">#</a> 特殊路径符</h2>
+<ul>
+<li><code>.</code> ，表示当前，比如./a.txt，表示当前文件夹内的 <code>a.txt</code>  文件</li>
+<li><code>..</code> ，表示上级目录，比如 <code>../</code>  表示上级目录， <code>../../</code>  表示上级的上级目录</li>
+<li><code>~</code> ，表示用户的 HOME 目录，比如 <code>cd ~</code> ，即可切回用户 HOME 目录</li>
+</ul>
+<h2 id="mkdir命令"><a class="anchor" href="#mkdir命令">#</a> mkdir 命令</h2>
+<p>功能：创建文件夹</p>
+<p>语法： <code>mkdir [-p] 参数</code></p>
+<ul>
+<li>参数：被创建文件夹的路径</li>
+<li>选项：-p，可选，表示创建前置路径</li>
+</ul>
+<h2 id="touch命令"><a class="anchor" href="#touch命令">#</a> touch 命令</h2>
+<p>功能：创建文件</p>
+<p>语法： <code>touch 参数</code></p>
+<ul>
+<li>参数：被创建的文件路径</li>
+</ul>
+<h2 id="cat命令"><a class="anchor" href="#cat命令">#</a> cat 命令</h2>
+<p>功能：查看文件内容</p>
+<p>语法： <code>cat 参数</code></p>
+<ul>
+<li>参数：被查看的文件路径</li>
+</ul>
+<h2 id="more命令"><a class="anchor" href="#more命令">#</a> more 命令</h2>
+<p>功能：查看文件，可以支持翻页查看</p>
+<p>语法： <code>more 参数</code></p>
+<ul>
+<li>参数：被查看的文件路径</li>
+<li>在查看过程中：
+<ul>
+<li><code>空格</code> 键翻页</li>
+<li><code>q</code>  退出查看</li>
+</ul>
+</li>
+</ul>
+<h2 id="cp命令"><a class="anchor" href="#cp命令">#</a> cp 命令</h2>
+<p>功能：复制文件、文件夹</p>
+<p>语法： <code>cp [-r] 参数1 参数2</code></p>
+<ul>
+<li>参数 1，被复制的</li>
+<li>参数 2，要复制去的地方</li>
+<li>选项：-r，可选，复制文件夹使用</li>
+</ul>
+<p>示例：</p>
+<ul>
+<li>cp a.txt b.txt，复制当前目录下 a.txt 为 b.txt</li>
+<li>cp a.txt test/，复制当前目录 a.txt 到 test 文件夹内</li>
+<li>cp -r test test2，复制文件夹 test 到当前文件夹内为 test2 存在</li>
+</ul>
+<h2 id="mv命令"><a class="anchor" href="#mv命令">#</a> mv 命令</h2>
+<p>功能：移动文件、文件夹</p>
+<p>语法： <code>mv 参数1 参数2</code></p>
+<ul>
+<li>参数 1：被移动的</li>
+<li>参数 2：要移动去的地方，参数 2 如果不存在，则会进行改名</li>
+</ul>
+<h2 id="rm命令"><a class="anchor" href="#rm命令">#</a> rm 命令</h2>
+<p>功能：删除文件、文件夹</p>
+<p>语法： <code>rm [-r -f] 参数...参数</code></p>
+<ul>
+<li>参数：支持多个，每一个表示被删除的，空格进行分隔</li>
+<li>选项：-r，删除文件夹使用</li>
+<li>选项：-f，强制删除，不会给出确认提示，一般 root 用户会用到</li>
+</ul>
+<blockquote>
+<p>rm 命令很危险，一定要注意，特别是切换到 root 用户的时候。</p>
+</blockquote>
+<h2 id="which命令"><a class="anchor" href="#which命令">#</a> which 命令</h2>
+<p>功能：查看命令的程序本体文件路径</p>
+<p>语法： <code>which 参数</code></p>
+<ul>
+<li>参数：被查看的命令</li>
+</ul>
+<h2 id="find命令"><a class="anchor" href="#find命令">#</a> find 命令</h2>
+<p>功能：搜索文件</p>
+<p>语法 1 按文件名搜索： <code>find 路径 -name 参数</code></p>
+<ul>
+<li>路径，搜索的起始路径</li>
+<li>参数，搜索的关键字，支持通配符 *， 比如： <code>*</code> test 表示搜索任意以 test 结尾的文件</li>
+</ul>
+<h2 id="grep命令"><a class="anchor" href="#grep命令">#</a> grep 命令</h2>
+<p>功能：过滤关键字</p>
+<p>语法： <code>grep [-n] 关键字 文件路径</code></p>
+<ul>
+<li>选项 - n，可选，表示在结果中显示匹配的行的行号。</li>
+<li>参数，关键字，必填，表示过滤的关键字，带有空格或其它特殊符号，建议使用”” 将关键字包围起来</li>
+<li>参数，文件路径，必填，表示要过滤内容的文件路径，可作为内容输入端口</li>
+</ul>
+<blockquote>
+<p>参数文件路径，可以作为管道符的输入</p>
+</blockquote>
+<h2 id="wc命令"><a class="anchor" href="#wc命令">#</a> wc 命令</h2>
+<p>功能：统计</p>
+<p>语法： <code>wc [-c -m -l -w] 文件路径</code></p>
+<ul>
+<li>选项，-c，统计 bytes 数量</li>
+<li>选项，-m，统计字符数量</li>
+<li>选项，-l，统计行数</li>
+<li>选项，-w，统计单词数量</li>
+<li>参数，文件路径，被统计的文件，可作为内容输入端口</li>
+</ul>
+<blockquote>
+<p>参数文件路径，可作为管道符的输入</p>
+</blockquote>
+<h2 id="管道符"><a class="anchor" href="#管道符">#</a> 管道符 |</h2>
+<p>写法： <code>|</code></p>
+<p>功能：将符号左边的结果，作为符号右边的输入</p>
+<p>示例：</p>
+<p><code>cat a.txt | grep qingyeling</code> ，将 cat a.txt 的结果，作为 grep 命令的输入，用来过滤 <code>qingyeling</code>  关键字</p>
+<p>可以支持嵌套：</p>
+<p><code>cat a.txt | grep qingyeling | grep itcast</code></p>
+<h2 id="echo命令"><a class="anchor" href="#echo命令">#</a> echo 命令</h2>
+<p>功能：输出内容</p>
+<p>语法： <code>echo 参数</code></p>
+<ul>
+<li>参数：被输出的内容</li>
+</ul>
+<h2 id="反引号"><a class="anchor" href="#反引号">#</a> ` 反引号</h2>
+<p>功能：被两个反引号包围的内容，会作为命令执行</p>
+<p>示例：</p>
+<ul>
+<li>echo `pwd`，会输出当前工作目录</li>
+</ul>
+<h2 id="tail命令"><a class="anchor" href="#tail命令">#</a> tail 命令</h2>
+<p>功能：查看文件尾部内容</p>
+<p>语法： <code>tail [-f] 参数</code></p>
+<ul>
+<li>参数：被查看的文件</li>
+<li>选项：-f，持续跟踪文件修改</li>
+</ul>
+<h2 id="head命令"><a class="anchor" href="#head命令">#</a> head 命令</h2>
+<p>功能：查看文件头部内容</p>
+<p>语法： <code>head [-n] 参数</code></p>
+<ul>
+<li>参数：被查看的文件</li>
+<li>选项：-n，查看的行数</li>
+</ul>
+<h2 id="重定向符"><a class="anchor" href="#重定向符">#</a> 重定向符</h2>
+<p>功能：将符号左边的结果，输出到右边指定的文件中去</p>
+<ul>
+<li><code>&gt;</code> ，表示覆盖输出</li>
+<li><code>&gt;&gt;</code> ，表示追加输出</li>
+</ul>
+<h1 id="权限控制"><a class="anchor" href="#权限控制">#</a> 权限控制</h1>
+<h2 id="su命令"><a class="anchor" href="#su命令">#</a> su 命令</h2>
+<p>切换用户</p>
+<p>语法： <code>su [-] [用户]</code></p>
+<p><img loading="lazy" data-src="https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222021.png" alt="image-20221027222021619"></p>
+<h2 id="sudo命令"><a class="anchor" href="#sudo命令">#</a> sudo 命令</h2>
+<p><img loading="lazy" data-src="https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222035.png" alt="image-20221027222035337"></p>
+<p>比如：</p>
+<figure class="highlight shell"><figcaption data-lang="Bash"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre>qingyeling <span class="token assign-left variable">ALL</span><span class="token operator">=</span><span class="token punctuation">(</span>ALL<span class="token punctuation">)</span>       NOPASSWD: ALL</pre></td></tr></tbody></table></figure><p>在 visudo 内配置如上内容，可以让 qingyeling 用户，无需密码直接使用 <code>sudo</code></p>
+<h2 id="chmod命令"><a class="anchor" href="#chmod命令">#</a> chmod 命令</h2>
+<p>修改文件、文件夹权限</p>
+<p>语法： <code>chmod [-R] 权限 参数</code></p>
+<ul>
+<li>
+<p>权限，要设置的权限，比如 755，表示： <code>rwxr-xr-x</code></p>
+<p><img loading="lazy" data-src="https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222157.png" alt="image-20221027222157276"></p>
+</li>
+<li>
+<p>参数，被修改的文件、文件夹</p>
+</li>
+<li>
+<p>选项 - R，设置文件夹和其内部全部内容一样生效</p>
+</li>
+</ul>
+<h2 id="chown命令"><a class="anchor" href="#chown命令">#</a> chown 命令</h2>
+<p>修改文件、文件夹所属用户、组</p>
+<p>语法： <code>chown [-R] [用户][:][用户组] 文件或文件夹</code></p>
+<h2 id="用户组管理"><a class="anchor" href="#用户组管理">#</a> 用户组管理</h2>
+<p><img loading="lazy" data-src="https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222354.png" alt="image-20221027222354498"></p>
+<h2 id="用户管理"><a class="anchor" href="#用户管理">#</a> 用户管理</h2>
+<p><img loading="lazy" data-src="https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222407.png" alt="image-20221027222407618"></p>
+<h2 id="genenv命令"><a class="anchor" href="#genenv命令">#</a> genenv 命令</h2>
+<ul>
+<li>
+<p><code>getenv group</code> ，查看系统全部的用户组</p>
+</li>
+<li>
+<p><code>getenv passwd</code> ，查看系统全部的用户</p>
+</li>
+</ul>
+<h2 id="env命令"><a class="anchor" href="#env命令">#</a> env 命令</h2>
+<p>查看系统全部的环境变量</p>
+<p>语法： <code>env</code></p>
+<h1 id="linux常用操作"><a class="anchor" href="#linux常用操作">#</a> Linux 常用操作</h1>
+<h2 id="软件安装"><a class="anchor" href="#软件安装">#</a> 软件安装</h2>
+<ul>
+<li>CentOS 系统使用：
+<ul>
+<li>yum [install remove search] [-y] 软件名称
+<ul>
+<li>install 安装</li>
+<li>remove 卸载</li>
+<li>search 搜索</li>
+<li>-y，自动确认</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Ubuntu 系统使用
+<ul>
+<li>apt [install remove search] [-y] 软件名称
+<ul>
+<li>install 安装</li>
+<li>remove 卸载</li>
+<li>search 搜索</li>
+<li>-y，自动确认</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>yum 和 apt 均需要 root 权限</p>
+</blockquote>
+<h2 id="systemctl"><a class="anchor" href="#systemctl">#</a> systemctl</h2>
+<p>功能：控制系统服务的启动关闭等</p>
+<p>语法： <code>systemctl start | stop | restart | disable | enable | status 服务名</code></p>
+<ul>
+<li>start，启动</li>
+<li>stop，停止</li>
+<li>status，查看状态</li>
+<li>disable，关闭开机自启</li>
+<li>enable，开启开机自启</li>
+<li>restart，重启</li>
+</ul>
+<h2 id="软链接"><a class="anchor" href="#软链接">#</a> 软链接</h2>
+<p>功能：创建文件、文件夹软链接（快捷方式）</p>
+<p>语法： <code>ln -s 参数1 参数2</code></p>
+<ul>
+<li>参数 1：被链接的</li>
+<li>参数 2：要链接去的地方（快捷方式的名称和存放位置）</li>
+</ul>
+<h2 id="日期"><a class="anchor" href="#日期">#</a> 日期</h2>
+<p>语法： <code>date [-d] [+格式化字符串]</code></p>
+<ul>
+<li>
+<p>-d 按照给定的字符串显示日期，一般用于日期计算</p>
+</li>
+<li>
+<p>格式化字符串：通过特定的字符串标记，来控制显示的日期格式</p>
+<ul>
+<li>% Y   年 % y   年份后两位数字 (00..99)</li>
+<li>% m   月份 (01..12)</li>
+<li>% d   日 (01..31)</li>
+<li>% H   小时 (00..23)</li>
+<li>% M   分钟 (00..59)</li>
+<li>% S   秒 (00..60)</li>
+<li>% s   自 1970-01-01 00:00:00 UTC 到现在的秒数</li>
+</ul>
+</li>
+</ul>
+<h2 id="时区"><a class="anchor" href="#时区">#</a> 时区</h2>
+<p>修改时区为中国时区</p>
+<p><img loading="lazy" data-src="https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027220554.png" alt="image-20221027220554654"></p>
+<h2 id="ntp"><a class="anchor" href="#ntp">#</a> ntp</h2>
+<p>功能：同步时间</p>
+<p>安装： <code>yum install -y ntp</code></p>
+<p>启动管理： <code>systemctl start | stop | restart | status | disable | enable ntpd</code></p>
+<p>手动校准时间： <code>ntpdate -u ntp.aliyun.com</code></p>
+<h2 id="ip地址"><a class="anchor" href="#ip地址">#</a> ip 地址</h2>
+<p>格式：a.b.c.d</p>
+<ul>
+<li>abcd 为 0~255 的数字</li>
+</ul>
+<p>特殊 IP：</p>
+<ul>
+<li>127.0.0.1，表示本机</li>
+<li>0.0.0.0
+<ul>
+<li>可以表示本机</li>
+<li>也可以表示任意 IP（看使用场景）</li>
+</ul>
+</li>
+</ul>
+<p>查看 ip： <code>ifconfig</code></p>
+<h2 id="主机名"><a class="anchor" href="#主机名">#</a> 主机名</h2>
+<p>功能：Linux 系统的名称</p>
+<p>查看： <code>hostname</code></p>
+<p>设置： <code>hostnamectl set-hostname 主机名</code></p>
+<h2 id="配置vmware固定ip"><a class="anchor" href="#配置vmware固定ip">#</a> 配置 VMware 固定 IP</h2>
+<ol>
+<li>
+<p>修改 VMware 网络，参阅 PPT，图太多</p>
+</li>
+<li>
+<p>设置 Linux 内部固定 IP</p>
+<p>修改文件： <code>/etc/sysconfig/network-scripts/ifcfg-ens33</code></p>
+<p>示例文件内容：</p>
+<figure class="highlight shell"><figcaption data-lang="Bash"></figcaption><table><tbody><tr><td data-num="1"></td><td><pre><span class="token assign-left variable">TYPE</span><span class="token operator">=</span><span class="token string">"Ethernet"</span></pre></td></tr><tr><td data-num="2"></td><td><pre><span class="token assign-left variable">PROXY_METHOD</span><span class="token operator">=</span><span class="token string">"none"</span></pre></td></tr><tr><td data-num="3"></td><td><pre><span class="token assign-left variable">BROWSER_ONLY</span><span class="token operator">=</span><span class="token string">"no"</span></pre></td></tr><tr><td data-num="4"></td><td><pre><span class="token assign-left variable">BOOTPROTO</span><span class="token operator">=</span><span class="token string">"static"</span>			<span class="token comment"># 改为 static，固定 IP</span></pre></td></tr><tr><td data-num="5"></td><td><pre><span class="token assign-left variable">DEFROUTE</span><span class="token operator">=</span><span class="token string">"yes"</span></pre></td></tr><tr><td data-num="6"></td><td><pre><span class="token assign-left variable">IPV4_FAILURE_FATAL</span><span class="token operator">=</span><span class="token string">"no"</span></pre></td></tr><tr><td data-num="7"></td><td><pre><span class="token assign-left variable">IPV6INIT</span><span class="token operator">=</span><span class="token string">"yes"</span></pre></td></tr><tr><td data-num="8"></td><td><pre><span class="token assign-left variable">IPV6_AUTOCONF</span><span class="token operator">=</span><span class="token string">"yes"</span></pre></td></tr><tr><td data-num="9"></td><td><pre><span class="token assign-left variable">IPV6_DEFROUTE</span><span class="token operator">=</span><span class="token string">"yes"</span></pre></td></tr><tr><td data-num="10"></td><td><pre><span class="token assign-left variable">IPV6_FAILURE_FATAL</span><span class="token operator">=</span><span class="token string">"no"</span></pre></td></tr><tr><td data-num="11"></td><td><pre><span class="token assign-left variable">IPV6_ADDR_GEN_MODE</span><span class="token operator">=</span><span class="token string">"stable-privacy"</span></pre></td></tr><tr><td data-num="12"></td><td><pre><span class="token assign-left variable">NAME</span><span class="token operator">=</span><span class="token string">"ens33"</span></pre></td></tr><tr><td data-num="13"></td><td><pre><span class="token assign-left variable">UUID</span><span class="token operator">=</span><span class="token string">"1b0011cb-0d2e-4eaa-8a11-af7d50ebc876"</span></pre></td></tr><tr><td data-num="14"></td><td><pre><span class="token assign-left variable">DEVICE</span><span class="token operator">=</span><span class="token string">"ens33"</span></pre></td></tr><tr><td data-num="15"></td><td><pre><span class="token assign-left variable">ONBOOT</span><span class="token operator">=</span><span class="token string">"yes"</span></pre></td></tr><tr><td data-num="16"></td><td><pre><span class="token assign-left variable">IPADDR</span><span class="token operator">=</span><span class="token string">"192.168.101.131"</span>		<span class="token comment"># IP 地址，自己设置，要匹配网络范围</span></pre></td></tr><tr><td data-num="17"></td><td><pre><span class="token assign-left variable">NETMASK</span><span class="token operator">=</span><span class="token string">"255.255.255.0"</span>		<span class="token comment"># 子网掩码，固定写法 255.255.255.0</span></pre></td></tr><tr><td data-num="18"></td><td><pre><span class="token assign-left variable">GATEWAY</span><span class="token operator">=</span><span class="token string">"192.168.101.2"</span>		<span class="token comment"># 网关，要和 VMware 中配置的一致</span></pre></td></tr><tr><td data-num="19"></td><td><pre><span class="token assign-left variable">DNS1</span><span class="token operator">=</span><span class="token string">"192.168.101.2"</span>			<span class="token comment"># DNS1 服务器，和网关一致即可</span></pre></td></tr></tbody></table></figure></li>
+</ol>
+<h2 id="ps命令"><a class="anchor" href="#ps命令">#</a> ps 命令</h2>
+<p>功能：查看进程信息</p>
+<p>语法： <code>ps -ef</code> ，查看全部进程信息，可以搭配 grep 做过滤： <code>ps -ef | grep xxx</code></p>
+<h2 id="kill命令"><a class="anchor" href="#kill命令">#</a> kill 命令</h2>
+<p>功能：杀死进程</p>
+<p>语法： <code>kill [-9] 进程id</code></p>
+<h2 id="nmap命令"><a class="anchor" href="#nmap命令">#</a> nmap 命令</h2>
+<p>nmap 主机地址</p>
+<h2 id="netstat命令"><a class="anchor" href="#netstat命令">#</a> netstat 命令</h2>
+<p>功能：查看端口占用</p>
+<p>用法： <code>netstat -anp | grep xxx</code></p>
+<h2 id="ping命令"><a class="anchor" href="#ping命令">#</a> ping 命令</h2>
+<p>测试网络是否联通</p>
+<p>语法： <code>ping [-c num] 参数</code></p>
+<p>选项:-c, 检查的次数，不使用 - c 选项，将无限次数持续检查</p>
+<p>参数:ip 或主机名，被检查的服务器的 ip 地址或主机名地址</p>
+<h2 id="wget命令"><a class="anchor" href="#wget命令">#</a> wget 命令</h2>
+<h2 id="curl命令"><a class="anchor" href="#curl命令">#</a> curl 命令</h2>
+<h2 id="top命令"><a class="anchor" href="#top命令">#</a> top 命令</h2>
+<p>功能：查看主机运行状态</p>
+<p>语法： <code>top</code> ，查看基础信息</p>
+<p>可用选项：</p>
+<p><img loading="lazy" data-src="https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027221340.png" alt="image-20221027221340729"></p>
+<p>交互式模式中，可用快捷键：</p>
+<p><img loading="lazy" data-src="https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027221354.png" alt="image-20221027221354137"></p>
+<h2 id="df命令"><a class="anchor" href="#df命令">#</a> df 命令</h2>
+<p>查看磁盘占用</p>
+<p>语法:  <code>df[-h]</code> <br>
+ 选项:-h, 以更加人性化的单位显示</p>
+<h2 id="iostat命令"><a class="anchor" href="#iostat命令">#</a> iostat 命令</h2>
+<p>查看 CPU、磁盘的相关信息</p>
+<h2 id="sar命令"><a class="anchor" href="#sar命令">#</a> sar 命令</h2>
+<p>查看网络统计</p>
+<h2 id="环境变量"><a class="anchor" href="#环境变量">#</a> 环境变量</h2>
+<ul>
+<li>临时设置：export 变量名 = 变量值</li>
+<li>永久设置：
+<ul>
+<li>针对用户，设置用户 HOME 目录内： <code>.bashrc</code>  文件</li>
+<li>针对全局，设置 <code>/etc/profile</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="path变量"><a class="anchor" href="#path变量">#</a> PATH 变量</h3>
+<p>记录了执行程序的搜索路径</p>
+<p>可以将自定义路径加入 PATH 内，实现自定义命令在任意地方均可执行的效果</p>
+<h2 id="符号"><a class="anchor" href="#符号">#</a> $ 符号</h2>
+<p>可以取出指定的环境变量的值</p>
+<p>语法： <code>$变量名</code></p>
+<p>示例：</p>
+<p><code>echo $PATH</code> ，输出 PATH 环境变量的值</p>
+<p><code>echo ${PATH}ABC</code> ，输出 PATH 环境变量的值以及 ABC</p>
+<p>如果变量名和其它内容混淆在一起，可以使用 ${}</p>
+<h2 id="压缩解压"><a class="anchor" href="#压缩解压">#</a> 压缩解压</h2>
+<h3 id="压缩"><a class="anchor" href="#压缩">#</a> 压缩</h3>
+<p><code>tar -zcvf 压缩包 被压缩1...被压缩2...被压缩N</code></p>
+<ul>
+<li>-z 表示使用 gzip，可以不写</li>
+</ul>
+<p><code>zip [-r] 参数1 参数2 参数N</code></p>
+<p><img loading="lazy" data-src="https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027221906.png" alt="image-20221027221906247"></p>
+<h3 id="解压"><a class="anchor" href="#解压">#</a> 解压</h3>
+<p><code>tar -zxvf 被解压的文件 -C 要解压去的地方</code></p>
+<ul>
+<li>-z 表示使用 gzip，可以省略</li>
+<li>-C，可以省略，指定要解压去的地方，不写解压到当前目录</li>
+</ul>
+<div class="tags"><a href="/tags/java/" rel="tag"><i class="ic i-tag"></i>后端</a></div></div><footer><div class="meta"><span class="item"><span class="icon"><i class="ic i-calendar-check"></i></span><span class="text">更新于</span><time title="修改时间：2025-07-02 15:52:22" itemprop="dateModified" datetime="2025-07-02T15:52:22+08:00">2025-07-02</time></span></div><div class="reward"><button><i class="ic i-heartbeat"></i>赞赏</button><p>请我喝[茶]~(￣▽￣)~*</p><div id="qr"><div><img loading="lazy" data-src="/assets/wechatpay.webp" alt="清野凛 微信支付"><p>微信支付</p></div><div><img loading="lazy" data-src="/assets/alipay.webp" alt="清野凛 支付宝"><p>支付宝</p></div></div></div><div id="copyright"><ul><li class="author"><strong>本文作者：</strong>清野凛<i class="ic i-at"><em>@</em></i>清野凛</li><li class="link"><strong>本文链接：</strong><a href="https://blog.qingyeling.cn/2024/09/14/computer-science/java/Linux/Liunx%E7%9A%84%E5%AD%A6%E4%B9%A0/" title="Linux的学习">https://blog.qingyeling.cn/2024/09/14/computer-science/java/Linux/Liunx的学习/</a></li><li class="license"><strong>版权声明：</strong>本站所有文章除特别声明外，均采用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh"><i class="ic i-creative-commons"><em>(CC)</em></i>BY-NC-SA</a> 许可协议。转载请注明出处！</li></ul></div></footer></article></div><div class="post-nav"><div class="item left"><a href="/2024/09/14/computer-science/java/docker/Docker%E7%9A%84%E5%AD%A6%E4%B9%A0/" rel="prev" itemprop="url" data-background-image="https://images.weserv.nl/?url=https://gitee.com/fufan1025/blog_img/raw/master/girl_walk_anime_153292_2560x1080.webp" title="Docker的学习"><span class="type">上一篇</span><span class="category"><i class="ic i-flag"></i>Docker</span><h3>Docker的学习</h3></a></div><div class="item right"><a href="/2024/09/17/Dimension-Gate/Anime-Discussion/Music/%E5%8A%A8%E6%BC%AB%E9%9F%B3%E4%B9%90%E8%AE%B0%E5%BD%95/" rel="next" itemprop="url" data-background-image="https://images.weserv.nl/?url=https://gitee.com/fufan1025/blog_img/raw/master/girl_headphones_anime_1079499_1920x1200.webp" title="动漫音乐记录"><span class="type">下一篇</span><span class="category"><i class="ic i-flag"></i>音乐</span><h3>动漫音乐记录</h3></a></div></div><div class="wrap" id="comments"></div></div><div id="sidebar"><div class="inner"><div class="panels"><div class="inner"><div class="contents panel pjax" data-title="文章目录"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#linux%E5%9F%BA%E7%A1%80%E5%91%BD%E4%BB%A4"><span class="toc-number">1.</span> <span class="toc-text"> Linux 基础命令</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#linux%E7%9A%84%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84"><span class="toc-number">1.1.</span> <span class="toc-text"> Linux 的目录结构</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ls%E5%91%BD%E4%BB%A4"><span class="toc-number">1.2.</span> <span class="toc-text"> ls 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6-%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="toc-number">1.3.</span> <span class="toc-text"> 隐藏文件、文件夹</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#pwd%E5%91%BD%E4%BB%A4"><span class="toc-number">1.4.</span> <span class="toc-text"> pwd 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#cd%E5%91%BD%E4%BB%A4"><span class="toc-number">1.5.</span> <span class="toc-text"> cd 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#home%E7%9B%AE%E5%BD%95"><span class="toc-number">1.6.</span> <span class="toc-text"> HOME 目录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84-%E7%BB%9D%E5%AF%B9%E8%B7%AF%E5%BE%84"><span class="toc-number">1.7.</span> <span class="toc-text"> 相对路径、绝对路径</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%B9%E6%AE%8A%E8%B7%AF%E5%BE%84%E7%AC%A6"><span class="toc-number">1.8.</span> <span class="toc-text"> 特殊路径符</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#mkdir%E5%91%BD%E4%BB%A4"><span class="toc-number">1.9.</span> <span class="toc-text"> mkdir 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#touch%E5%91%BD%E4%BB%A4"><span class="toc-number">1.10.</span> <span class="toc-text"> touch 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#cat%E5%91%BD%E4%BB%A4"><span class="toc-number">1.11.</span> <span class="toc-text"> cat 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#more%E5%91%BD%E4%BB%A4"><span class="toc-number">1.12.</span> <span class="toc-text"> more 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#cp%E5%91%BD%E4%BB%A4"><span class="toc-number">1.13.</span> <span class="toc-text"> cp 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#mv%E5%91%BD%E4%BB%A4"><span class="toc-number">1.14.</span> <span class="toc-text"> mv 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#rm%E5%91%BD%E4%BB%A4"><span class="toc-number">1.15.</span> <span class="toc-text"> rm 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#which%E5%91%BD%E4%BB%A4"><span class="toc-number">1.16.</span> <span class="toc-text"> which 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#find%E5%91%BD%E4%BB%A4"><span class="toc-number">1.17.</span> <span class="toc-text"> find 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#grep%E5%91%BD%E4%BB%A4"><span class="toc-number">1.18.</span> <span class="toc-text"> grep 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#wc%E5%91%BD%E4%BB%A4"><span class="toc-number">1.19.</span> <span class="toc-text"> wc 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AE%A1%E9%81%93%E7%AC%A6"><span class="toc-number">1.20.</span> <span class="toc-text"> 管道符 |</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#echo%E5%91%BD%E4%BB%A4"><span class="toc-number">1.21.</span> <span class="toc-text"> echo 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8F%8D%E5%BC%95%E5%8F%B7"><span class="toc-number">1.22.</span> <span class="toc-text"> ` 反引号</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#tail%E5%91%BD%E4%BB%A4"><span class="toc-number">1.23.</span> <span class="toc-text"> tail 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#head%E5%91%BD%E4%BB%A4"><span class="toc-number">1.24.</span> <span class="toc-text"> head 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%87%8D%E5%AE%9A%E5%90%91%E7%AC%A6"><span class="toc-number">1.25.</span> <span class="toc-text"> 重定向符</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9D%83%E9%99%90%E6%8E%A7%E5%88%B6"><span class="toc-number">2.</span> <span class="toc-text"> 权限控制</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#su%E5%91%BD%E4%BB%A4"><span class="toc-number">2.1.</span> <span class="toc-text"> su 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#sudo%E5%91%BD%E4%BB%A4"><span class="toc-number">2.2.</span> <span class="toc-text"> sudo 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#chmod%E5%91%BD%E4%BB%A4"><span class="toc-number">2.3.</span> <span class="toc-text"> chmod 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#chown%E5%91%BD%E4%BB%A4"><span class="toc-number">2.4.</span> <span class="toc-text"> chown 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%94%A8%E6%88%B7%E7%BB%84%E7%AE%A1%E7%90%86"><span class="toc-number">2.5.</span> <span class="toc-text"> 用户组管理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86"><span class="toc-number">2.6.</span> <span class="toc-text"> 用户管理</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#genenv%E5%91%BD%E4%BB%A4"><span class="toc-number">2.7.</span> <span class="toc-text"> genenv 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#env%E5%91%BD%E4%BB%A4"><span class="toc-number">2.8.</span> <span class="toc-text"> env 命令</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#linux%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C"><span class="toc-number">3.</span> <span class="toc-text"> Linux 常用操作</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85"><span class="toc-number">3.1.</span> <span class="toc-text"> 软件安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#systemctl"><span class="toc-number">3.2.</span> <span class="toc-text"> systemctl</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BD%AF%E9%93%BE%E6%8E%A5"><span class="toc-number">3.3.</span> <span class="toc-text"> 软链接</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%A5%E6%9C%9F"><span class="toc-number">3.4.</span> <span class="toc-text"> 日期</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%97%B6%E5%8C%BA"><span class="toc-number">3.5.</span> <span class="toc-text"> 时区</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ntp"><span class="toc-number">3.6.</span> <span class="toc-text"> ntp</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ip%E5%9C%B0%E5%9D%80"><span class="toc-number">3.7.</span> <span class="toc-text"> ip 地址</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%BB%E6%9C%BA%E5%90%8D"><span class="toc-number">3.8.</span> <span class="toc-text"> 主机名</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%85%8D%E7%BD%AEvmware%E5%9B%BA%E5%AE%9Aip"><span class="toc-number">3.9.</span> <span class="toc-text"> 配置 VMware 固定 IP</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ps%E5%91%BD%E4%BB%A4"><span class="toc-number">3.10.</span> <span class="toc-text"> ps 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#kill%E5%91%BD%E4%BB%A4"><span class="toc-number">3.11.</span> <span class="toc-text"> kill 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#nmap%E5%91%BD%E4%BB%A4"><span class="toc-number">3.12.</span> <span class="toc-text"> nmap 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#netstat%E5%91%BD%E4%BB%A4"><span class="toc-number">3.13.</span> <span class="toc-text"> netstat 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ping%E5%91%BD%E4%BB%A4"><span class="toc-number">3.14.</span> <span class="toc-text"> ping 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#wget%E5%91%BD%E4%BB%A4"><span class="toc-number">3.15.</span> <span class="toc-text"> wget 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#curl%E5%91%BD%E4%BB%A4"><span class="toc-number">3.16.</span> <span class="toc-text"> curl 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#top%E5%91%BD%E4%BB%A4"><span class="toc-number">3.17.</span> <span class="toc-text"> top 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#df%E5%91%BD%E4%BB%A4"><span class="toc-number">3.18.</span> <span class="toc-text"> df 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#iostat%E5%91%BD%E4%BB%A4"><span class="toc-number">3.19.</span> <span class="toc-text"> iostat 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#sar%E5%91%BD%E4%BB%A4"><span class="toc-number">3.20.</span> <span class="toc-text"> sar 命令</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F"><span class="toc-number">3.21.</span> <span class="toc-text"> 环境变量</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#path%E5%8F%98%E9%87%8F"><span class="toc-number">3.21.1.</span> <span class="toc-text"> PATH 变量</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%A6%E5%8F%B7"><span class="toc-number">3.22.</span> <span class="toc-text"> $ 符号</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8E%8B%E7%BC%A9%E8%A7%A3%E5%8E%8B"><span class="toc-number">3.23.</span> <span class="toc-text"> 压缩解压</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%8B%E7%BC%A9"><span class="toc-number">3.23.1.</span> <span class="toc-text"> 压缩</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%A7%A3%E5%8E%8B"><span class="toc-number">3.23.2.</span> <span class="toc-text"> 解压</span></a></li></ol></li></ol></li></ol></div><div class="related panel pjax" data-title="系列文章"><ul><li class="active"><a href="/2024/09/14/computer-science/java/Linux/Liunx%E7%9A%84%E5%AD%A6%E4%B9%A0/" rel="bookmark" title="Linux的学习">Linux的学习</a></li></ul></div><div class="overview panel" data-title="站点概览"><div class="author" itemprop="author" itemscope="itemscope" itemtype="http://schema.org/Person"><img class="image" loading="lazy" decoding="async" itemprop="image" alt="清野凛" src="/assets/avatar.webp"><p class="name" itemprop="name">清野凛</p><div class="description" itemprop="description">QIngyeling的编程日记</div></div><nav class="state"><div class="item posts"><a href="/archives/"><span class="count">6</span><span class="name">文章</span></a></div><div class="item categories"><a href="/categories/"><span class="count">9</span><span class="name">分类</span></a></div><div class="item tags"><a href="/tags/"><span class="count">3</span><span class="name">标签</span></a></div></nav><div class="social"><a target="_blank" rel="noopener" href="https://github.com/QIngyeling-xyp" class="item github" title="https://github.com/QIngyeling-xyp"><i class="ic i-github"></i></a></div><div class="menu"><li class="item"><a href="/" rel="section"><i class="ic i-home"></i>首页</a></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-user"></i>关于</a><ul class="submenu"><li class="item"><a href="/about/" rel="section"><i class="ic i-user"></i>关于本站</a></li></ul></li><li class="item dropdown"><a href="#" onclick="return false;"><i class="ic i-feather"></i>文章</a><ul class="submenu"><li class="item"><a href="/archives/" rel="section"><i class="ic i-list-alt"></i>归档</a></li><li class="item"><a href="/categories/" rel="section"><i class="ic i-th"></i>分类</a></li><li class="item"><a href="/tags/" rel="section"><i class="ic i-tags"></i>标签</a></li></ul></li><li class="item"><a href="/friends/" rel="section"><i class="ic i-heart"></i>友链</a></li></div></div></div></div><ul id="quick"><li class="prev pjax"><a href="/2024/09/17/Dimension-Gate/Anime-Discussion/Music/%E5%8A%A8%E6%BC%AB%E9%9F%B3%E4%B9%90%E8%AE%B0%E5%BD%95/" rel="prev" title="上一篇"><i class="ic i-chevron-left"></i></a></li><li class="up"><i class="ic i-arrow-up"></i></li><li class="down"><i class="ic i-arrow-down"></i></li><li class="next pjax"><a href="/2024/09/14/computer-science/java/docker/Docker%E7%9A%84%E5%AD%A6%E4%B9%A0/" rel="next" title="下一篇"><i class="ic i-chevron-right"></i></a></li><li class="percent"></li></ul></div></div><div class="dimmer"></div></div></main><footer id="footer"><div class="inner"><div class="widgets"><div class="rpost pjax"><h2>随机文章</h2><ul><li class="item"><div class="breadcrumb"><a href="/categories/Dimension-Gate/" title="分类于次元阁">次元阁</a><i class="ic i-angle-right"></i><a href="/categories/Dimension-Gate/Anime-Discussion/" title="分类于动漫杂谈">动漫杂谈</a><i class="ic i-angle-right"></i><a href="/categories/Dimension-Gate/Anime-Discussion/Music/" title="分类于音乐">音乐</a></div><span><a href="/2024/09/17/Dimension-Gate/Anime-Discussion/Music/%E5%8A%A8%E6%BC%AB%E9%9F%B3%E4%B9%90%E8%AE%B0%E5%BD%95/">动漫音乐记录</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer-science/" title="分类于计算机科学">计算机科学</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/java/" title="分类于Java">Java</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/java/redis/" title="分类于Redis">Redis</a></div><span><a href="/2024/09/19/computer-science/java/redis/redis%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/">redis基本命令</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer-science/" title="分类于计算机科学">计算机科学</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/java/" title="分类于Java">Java</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/java/test/" title="分类于test">test</a></div><span><a href="/2024/09/13/computer-science/java/test/hello-world/">Hello World</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer-science/" title="分类于计算机科学">计算机科学</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/java/" title="分类于Java">Java</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/java/linux/" title="分类于Linux">Linux</a></div><span><a href="/2024/09/14/computer-science/java/Linux/Liunx%E7%9A%84%E5%AD%A6%E4%B9%A0/">Linux的学习</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer-science/" title="分类于计算机科学">计算机科学</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/java/" title="分类于Java">Java</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/java/Docker/" title="分类于Docker">Docker</a></div><span><a href="/2024/09/14/computer-science/java/docker/Docker%E7%9A%84%E5%AD%A6%E4%B9%A0/">Docker的学习</a></span></li><li class="item"><div class="breadcrumb"><a href="/categories/computer-science/" title="分类于计算机科学">计算机科学</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/java/" title="分类于Java">Java</a><i class="ic i-angle-right"></i><a href="/categories/computer-science/java/test/" title="分类于test">test</a></div><span><a href="/2024/09/17/computer-science/java/test/hexo-shokaX%E7%9A%84%E6%97%A5%E5%BF%97/">hexo-shokaX的日志</a></span></li></ul></div><div class="rpost pjax"><h2>最新评论</h2><ul class="leancloud-recent-comment" id="new-comment"></ul></div></div><div class="status"><div class="copyright">© 2024 -<span itemprop="copyrightYear">2025</span><span class="with-love"><i class="ic i-sakura rotate"></i></span><span class="author" itemprop="copyrightHolder">清野凛 @ QIng yeling</span></div><div class="count"><span class="post-meta-item-icon"><i class="ic i-chart-area"></i></span><span title="站点总字数">16k 字</span><span class="post-meta-divider"> | </span><span class="post-meta-item-icon"><i class="ic i-coffee"></i></span><span title="站点阅读时长">15 分钟</span></div><div class="powered-by">基于 <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a> &amp; Theme.<a target="_blank" rel="noopener" href="https://github.com/theme-shoka-x/hexo-theme-shokaX/">ShokaX</a></div></div></div></footer></div><script data-config="" type="text/javascript">var LOCAL = {
+    ispost: true,
+        path: `2024/09/14/computer-science/java/Linux/Liunx的学习/`,
+        favicon: {
+        show: `你踏马来了！QVQ`,
+        hide: `你干嘛,嗨嗨哟T_T`
+    },
+    search: {
+        placeholder: "文章搜索",
+        empty: "关于 「 ${query} 」，什么也没搜到",
+        stats: "${time} ms 内找到 ${hits} 条结果"
+    },
+    copy_tex: false,
+    katex: false,
+    mermaid: false,
+    audio: undefined,
+    fancybox: true,
+    nocopy: false,
+    outime: true,
+    template: `<div class="note warning"><p><span class="label warning">文章时效性提示</span><br>这是一篇发布于 {{publish}} 天前，最后一次更新在 {{updated}} 天前的文章，部分信息可能已经发生改变，请注意甄别。</p></div>`,
+    quiz: {
+        choice: `单选题`,
+        multiple: `多选题`,
+        true_false: `判断题`,
+        essay: `问答题`,
+        gap_fill: `填空题`,
+        mistake: `错题备注`
+    },
+    ignores: [
+        (uri) => uri.includes('#'),
+        (uri) => new RegExp(LOCAL.path + '$').test(uri),
+            []
+    ]
+};
+</script><script src="https://s4.zstatic.net/ajax/libs/pace/1.2.4/pace.min.js" integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous" fetchpriority="high"></script><script src="https://s4.zstatic.net/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2" crossorigin="anonymous" fetchpriority="high"></script><script src="/js/siteInit.js?v=0.4.11" type="module" fetchpriority="high" defer=""></script></body></html>
