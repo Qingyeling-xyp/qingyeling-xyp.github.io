@@ -934,7 +934,7 @@
 &lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&#34;图片测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#图片测试&#34;&gt;#&lt;/a&gt; 图片测试&lt;/h1&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20250901170412694.png&#34; alt=&#34;image-20250901170412694&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;/image-20250901180547182.png&#34; alt=&#34;image-20250901180547182&#34;&gt;&lt;/p&gt;
 &lt;p&gt;需要删除./hello-world/ 才是正确路径&lt;/p&gt;
 </content>
         <category term="计算机科学" scheme="https://blog.qingyeling.cn/categories/computer-science/" />
