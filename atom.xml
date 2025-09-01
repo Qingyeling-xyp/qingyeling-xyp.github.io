@@ -154,7 +154,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id=&#34;list类型&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#list类型&#34;&gt;#&lt;/a&gt; List 类型&lt;/h2&gt;
-&lt;p&gt;Redis 中的 List 类型与] ava 中的 Linkedlist 类似，可以看做是一个双向链表结构。既可以支持正向检索和也可以支持反向&lt;br /&gt;
+&lt;p&gt;Redis 中的 List 类型与] ava 中的 Linkedlist 类似，可以看做是一个双向链表结构。既可以支持正向检索和也可以支持反向&lt;br&gt;
 检索。&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -249,6 +249,8 @@
         <title>hexo-shokaX的日志</title>
         <link rel="alternate" href="https://blog.qingyeling.cn/2024/09/17/computer-science/java/test/hexo-shokaX%E7%9A%84%E6%97%A5%E5%BF%97/"/>
         <content type="html">&lt;h1 id=&#34;ok这里是日志&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ok这里是日志&#34;&gt;#&lt;/a&gt; OK 这里是日志&lt;/h1&gt;
+&lt;h2 id=&#34;202572-1613&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#202572-1613&#34;&gt;#&lt;/a&gt; 2025/7/2  16:13&lt;/h2&gt;
+&lt;p&gt;更换了 shokax 的更新链接  fetch (&#39;&lt;a href=&#34;https://registry.npmmirror.com/hexo-theme-shokax/latest&#34;&gt;https://registry.npmmirror.com/hexo-theme-shokax/latest&lt;/a&gt;&#39;  原本的链接失效&lt;/p&gt;
 &lt;h2 id=&#34;20241116-0037&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#20241116-0037&#34;&gt;#&lt;/a&gt; 2024/11/16 00:37&lt;/h2&gt;
 &lt;p&gt;添加了友链&lt;/p&gt;
 &lt;h2 id=&#34;2024920-1437&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2024920-1437&#34;&gt;#&lt;/a&gt; 2024/9/20 14:37&lt;/h2&gt;
@@ -316,7 +318,7 @@
         <link rel="alternate" href="https://blog.qingyeling.cn/2024/09/14/computer-science/java/Linux/Liunx%E7%9A%84%E5%AD%A6%E4%B9%A0/"/>
         <content type="html">&lt;h1 id=&#34;linux基础命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux基础命令&#34;&gt;#&lt;/a&gt; Linux 基础命令&lt;/h1&gt;
 &lt;h2 id=&#34;linux的目录结构&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#linux的目录结构&#34;&gt;#&lt;/a&gt; Linux 的目录结构&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027214128.png&#34; alt=&#34;image-20221027214128453&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027214128.png&#34; alt=&#34;image-20221027214128453&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;/&lt;/code&gt; ，根目录是最顶级的目录了&lt;/li&gt;
 &lt;li&gt;Linux 只有一个顶级目录： &lt;code&gt;/&lt;/code&gt;&lt;/li&gt;
@@ -513,9 +515,9 @@
 &lt;h2 id=&#34;su命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#su命令&#34;&gt;#&lt;/a&gt; su 命令&lt;/h2&gt;
 &lt;p&gt;切换用户&lt;/p&gt;
 &lt;p&gt;语法： &lt;code&gt;su [-] [用户]&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222021.png&#34; alt=&#34;image-20221027222021619&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222021.png&#34; alt=&#34;image-20221027222021619&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;sudo命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#sudo命令&#34;&gt;#&lt;/a&gt; sudo 命令&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222035.png&#34; alt=&#34;image-20221027222035337&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222035.png&#34; alt=&#34;image-20221027222035337&#34;&gt;&lt;/p&gt;
 &lt;p&gt;比如：&lt;/p&gt;
 &lt;figure class=&#34;highlight shell&#34;&gt;&lt;figcaption data-lang=&#34;Bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;qingyeling &lt;span class=&#34;token assign-left variable&#34;&gt;ALL&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;ALL&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;       NOPASSWD: ALL&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;在 visudo 内配置如上内容，可以让 qingyeling 用户，无需密码直接使用 &lt;code&gt;sudo&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;chmod命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#chmod命令&#34;&gt;#&lt;/a&gt; chmod 命令&lt;/h2&gt;
@@ -524,7 +526,7 @@
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;权限，要设置的权限，比如 755，表示： &lt;code&gt;rwxr-xr-x&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222157.png&#34; alt=&#34;image-20221027222157276&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222157.png&#34; alt=&#34;image-20221027222157276&#34;&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;参数，被修改的文件、文件夹&lt;/p&gt;
@@ -537,9 +539,9 @@
 &lt;p&gt;修改文件、文件夹所属用户、组&lt;/p&gt;
 &lt;p&gt;语法： &lt;code&gt;chown [-R] [用户][:][用户组] 文件或文件夹&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id=&#34;用户组管理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#用户组管理&#34;&gt;#&lt;/a&gt; 用户组管理&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222354.png&#34; alt=&#34;image-20221027222354498&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222354.png&#34; alt=&#34;image-20221027222354498&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;用户管理&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#用户管理&#34;&gt;#&lt;/a&gt; 用户管理&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222407.png&#34; alt=&#34;image-20221027222407618&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027222407.png&#34; alt=&#34;image-20221027222407618&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;genenv命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#genenv命令&#34;&gt;#&lt;/a&gt; genenv 命令&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -622,7 +624,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;时区&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#时区&#34;&gt;#&lt;/a&gt; 时区&lt;/h2&gt;
 &lt;p&gt;修改时区为中国时区&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027220554.png&#34; alt=&#34;image-20221027220554654&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027220554.png&#34; alt=&#34;image-20221027220554654&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;ntp&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#ntp&#34;&gt;#&lt;/a&gt; ntp&lt;/h2&gt;
 &lt;p&gt;功能：同步时间&lt;/p&gt;
 &lt;p&gt;安装： &lt;code&gt;yum install -y ntp&lt;/code&gt;&lt;/p&gt;
@@ -681,12 +683,12 @@
 &lt;p&gt;功能：查看主机运行状态&lt;/p&gt;
 &lt;p&gt;语法： &lt;code&gt;top&lt;/code&gt; ，查看基础信息&lt;/p&gt;
 &lt;p&gt;可用选项：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027221340.png&#34; alt=&#34;image-20221027221340729&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027221340.png&#34; alt=&#34;image-20221027221340729&#34;&gt;&lt;/p&gt;
 &lt;p&gt;交互式模式中，可用快捷键：&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027221354.png&#34; alt=&#34;image-20221027221354137&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027221354.png&#34; alt=&#34;image-20221027221354137&#34;&gt;&lt;/p&gt;
 &lt;h2 id=&#34;df命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#df命令&#34;&gt;#&lt;/a&gt; df 命令&lt;/h2&gt;
 &lt;p&gt;查看磁盘占用&lt;/p&gt;
-&lt;p&gt;语法:  &lt;code&gt;df[-h]&lt;/code&gt; &lt;br /&gt;
+&lt;p&gt;语法:  &lt;code&gt;df[-h]&lt;/code&gt; &lt;br&gt;
  选项:-h, 以更加人性化的单位显示&lt;/p&gt;
 &lt;h2 id=&#34;iostat命令&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#iostat命令&#34;&gt;#&lt;/a&gt; iostat 命令&lt;/h2&gt;
 &lt;p&gt;查看 CPU、磁盘的相关信息&lt;/p&gt;
@@ -719,7 +721,7 @@
 &lt;li&gt;-z 表示使用 gzip，可以不写&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;code&gt;zip [-r] 参数1 参数2 参数N&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027221906.png&#34; alt=&#34;image-20221027221906247&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027221906.png&#34; alt=&#34;image-20221027221906247&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;解压&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#解压&#34;&gt;#&lt;/a&gt; 解压&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;tar -zxvf 被解压的文件 -C 要解压去的地方&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -909,6 +911,7 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h1 id=&#34;测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#测试&#34;&gt;#&lt;/a&gt; 测试&lt;/h1&gt;
 </content>
         <category term="计算机科学" scheme="https://blog.qingyeling.cn/categories/computer-science/" />
         <category term="Java" scheme="https://blog.qingyeling.cn/categories/computer-science/java/" />
@@ -930,6 +933,9 @@
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/generating.html&#34;&gt;Generating&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;a href=&#34;https://hexo.io/docs/one-command-deployment.html&#34;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&#34;图片测试&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#图片测试&#34;&gt;#&lt;/a&gt; 图片测试&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; data-src=&#34;image-20250901170412694.png&#34; alt=&#34;image-20250901170412694&#34;&gt;&lt;/p&gt;
+&lt;p&gt;需要删除./hello-world/ 才是正确路径&lt;/p&gt;
 </content>
         <category term="计算机科学" scheme="https://blog.qingyeling.cn/categories/computer-science/" />
         <category term="Java" scheme="https://blog.qingyeling.cn/categories/computer-science/java/" />
